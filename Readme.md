@@ -1,8 +1,5 @@
 ## Pre-Requisite
-<<<<<<< HEAD
-=======
 
->>>>>>> 96b8f74 (refactored methods)
 Following libraries should be added in pom.xml
 
 1. Java 8 & above
@@ -24,12 +21,8 @@ Following libraries should be added in pom.xml
 # Execution Flow:
 - When execute this command mvn test -DsuiteFile=Testexecution.xml, it triggers the TestNG Xml file where the xml file path is configured in Maven surfire-plugin
 - TestNG xml file will execute tests which are configured.
-<<<<<<< HEAD
-- Report includes screenshot of all failed tests
 
-![Screenshot of failed Tests](/images/failedTest.png)
-=======
 - Report includes success test and failed tests with screenshots.
-![](/images/TestSuccess.png)
-![](/images/TestFailure.png)
->>>>>>> 96b8f74 (refactored methods)
+![Test Failure](/images/TestSuccess.png)
+![Test Success](/images/TestFailure.png)
+
