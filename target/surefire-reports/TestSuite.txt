@@ -1,0 +1,19 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 137.231 s <<< FAILURE! - in TestSuite
+Tests.AddCart.verifyAddToCartTest  Time elapsed: 125.645 s  <<< FAILURE!
+org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to be clickable: Proxy element for: DefaultElementLocator 'By.id: layer_cart_product_pric' (tried for 90 second(s) with 500 milliseconds interval)
+	at Tests.AddCart.verifyAddToCartTest(AddCart.java:33)
+Caused by: org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"css selector","selector":"#layer_cart_product_pric"}
+  (Session info: chrome=102.0.5005.115)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'L103819.local', ip: 'fdaa:bbcc:ddee:0:44e:eba1:5cdc:f82d%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '12.3', java.version: '11.0.14'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 102.0.5005.115, chrome: {chromedriverVersion: 101.0.4951.41 (93c720db8323..., userDataDir: /var/folders/mr/b30ghng94pv...}, goog:chromeOptions: {debuggerAddress: localhost:60221}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 10715b1c9110adc97d0e55e071288921
+*** Element info: {Using=id, value=layer_cart_product_pric}
+	at Tests.AddCart.verifyAddToCartTest(AddCart.java:33)
+
