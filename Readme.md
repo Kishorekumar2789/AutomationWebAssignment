@@ -19,4 +19,6 @@
 #Execution Flow:
 - When execute this command mvn test -DsuiteFile=Testexecution.xml, it triggers the TestNG Xml file where the xml file path is configured in Maven surfire-plugin
 - TestNG xml file will execute tests which are configured.
-![](/images/failedTest.png)
+- Report includes screenshot of all failed tests
+
+![Screenshot of failed Tests](/images/failedTest.png)
