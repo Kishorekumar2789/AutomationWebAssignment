@@ -2,24 +2,24 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-06-15T19:47:04Z" name="default" finished-at="2022-06-15T19:47:21Z" duration-ms="17809">
+  <suite started-at="2022-06-15T21:56:25Z" name="default" finished-at="2022-06-15T21:56:51Z" duration-ms="25447">
     <groups>
     </groups>
-    <test started-at="2022-06-15T19:47:04Z" name="Web" finished-at="2022-06-15T19:47:21Z" duration-ms="17809">
-      <class name="Tests.AddCart">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:Tests.AddCart@17f7cd29]" started-at="2022-06-15T19:47:04Z" name="setUp" finished-at="2022-06-15T19:47:13Z" duration-ms="9715" status="PASS">
+    <test started-at="2022-06-15T21:56:25Z" name="Web" finished-at="2022-06-15T21:56:51Z" duration-ms="25447">
+      <class name="Tests.AddCartTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:Tests.AddCartTest@65987993]" started-at="2022-06-15T21:56:25Z" name="setUp" finished-at="2022-06-15T21:56:36Z" duration-ms="10407" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="loginValidation()[pri:1, instance:Tests.AddCart@17f7cd29]" started-at="2022-06-15T19:47:13Z" name="loginValidation" finished-at="2022-06-15T19:47:21Z" duration-ms="7922" status="PASS">
+        <test-method signature="verifyAddToCartTest()[pri:1, instance:Tests.AddCartTest@65987993]" started-at="2022-06-15T21:56:36Z" name="verifyAddToCartTest" finished-at="2022-06-15T21:56:50Z" duration-ms="14507" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- loginValidation -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:Tests.AddCart@17f7cd29]" started-at="2022-06-15T19:47:21Z" name="tearDown" finished-at="2022-06-15T19:47:21Z" duration-ms="154" status="PASS">
+        </test-method> <!-- verifyAddToCartTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:Tests.AddCartTest@65987993]" started-at="2022-06-15T21:56:51Z" name="tearDown" finished-at="2022-06-15T21:56:51Z" duration-ms="104" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- Tests.AddCart -->
+      </class> <!-- Tests.AddCartTest -->
     </test> <!-- Web -->
   </suite> <!-- default -->
 </testng-results>

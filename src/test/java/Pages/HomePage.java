@@ -85,7 +85,7 @@ public class HomePage extends WebBase {
 				helper.mouseHover(mDriver, price);
 				ele.click();
 
-				Assert.assertTrue(prices.equals(mPriceOfTheDress.getText()));
+				Assert.assertTrue(prices.equals(helper.visibilityOfElement(mDriver, mPriceOfTheDress).getText()));
 
 				mProductAddedSuccessMessage.click();
 

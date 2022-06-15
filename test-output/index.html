@@ -49,7 +49,7 @@
               <ul>
                 <li>
                   <a href="#" panel-name="test-xml-default" class="navigator-link ">
-                    <span>execution.xml</span>
+                    <span>Testexecution.xml</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
@@ -102,7 +102,7 @@
                     <div class="method-list-content passed suite-default">
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-default" title="Tests.AddCart" class="method navigator-link" hash-for-method="loginValidation">loginValidation</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-default" title="Tests.AddCartTest" class="method navigator-link" hash-for-method="verifyAddToCartTest">verifyAddToCartTest</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content passed suite-default -->
@@ -120,14 +120,14 @@
           <div class="suite-default-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
-              <span class="class-name">Tests.AddCart</span>
+              <span class="class-name">Tests.AddCartTest</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="loginValidation">
-                  </a> <!-- loginValidation -->
-                  <span class="method-name">loginValidation</span>
+                  <a name="verifyAddToCartTest">
+                  </a> <!-- verifyAddToCartTest -->
+                  <span class="method-name">verifyAddToCartTest</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -135,16 +135,19 @@
         </div> <!-- panel default -->
         <div panel-name="test-xml-default" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">/Users/kiku01/Documents/automationassignment/execution.xml</span>
+            <span class="header-content">/Users/kiku01/Documents/automationassignment/Testexecution.xml</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <pre>
 &lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
 &lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
 &lt;suite name=&quot;default&quot; guice-stage=&quot;DEVELOPMENT&quot;&gt;
+  &lt;listeners&gt;
+    &lt;listener class-name=&quot;Listeners.TestListener&quot;/&gt;
+  &lt;/listeners&gt;
   &lt;test thread-count=&quot;5&quot; name=&quot;Web&quot;&gt;
     &lt;classes&gt;
-      &lt;class name=&quot;Tests.AddCart&quot;/&gt;
+      &lt;class name=&quot;Tests.AddCartTest&quot;/&gt;
     &lt;/classes&gt;
   &lt;/test&gt; &lt;!-- Web --&gt;
 &lt;/suite&gt; &lt;!-- default --&gt;
@@ -186,14 +189,14 @@ data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
 data.addRows(1);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'loginValidation')
-data.setCell(0, 2, 'Tests.AddCart')
-data.setCell(0, 3, 7922);
+data.setCell(0, 1, 'verifyAddToCartTest')
+data.setCell(0, 2, 'Tests.AddCartTest')
+data.setCell(0, 3, 14507);
 window.suiteTableData['default']= { tableData: data, tableDiv: 'times-div-default'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 7 seconds</span>
+              <span class="suite-total-time">Total running time: 14 seconds</span>
               <div id="times-div-default">
               </div> <!-- times-div-default -->
             </div> <!-- times-div -->
@@ -219,18 +222,18 @@ return data;
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="chronological-class">
-              <div class="chronological-class-name">Tests.AddCart</div> <!-- chronological-class-name -->
+              <div class="chronological-class-name">Tests.AddCartTest</div> <!-- chronological-class-name -->
               <div class="configuration-method before">
                 <span class="method-name">setUp</span>
                 <span class="method-start">0 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
-                <span class="method-name">loginValidation</span>
-                <span class="method-start">9715 ms</span>
+                <span class="method-name">verifyAddToCartTest</span>
+                <span class="method-start">10407 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">17642 ms</span>
+                <span class="method-start">25327 ms</span>
               </div> <!-- configuration-method after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

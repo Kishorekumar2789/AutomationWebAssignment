@@ -6,13 +6,13 @@
   </listeners>
   <test thread-count="5" name="Web(failed)" verbose="0">
     <classes>
-      <class name="Tests.AddCart">
+      <class name="Tests.AddCartTest">
         <methods>
-          <include name="verifyAddToCartTest"/>
           <include name="setUp"/>
           <include name="tearDown"/>
+          <include name="verifyAddToCartTest"/>
         </methods>
-      </class> <!-- Tests.AddCart -->
+      </class> <!-- Tests.AddCartTest -->
     </classes>
   </test> <!-- Web(failed) -->
 </suite> <!-- Failed suite [default] -->

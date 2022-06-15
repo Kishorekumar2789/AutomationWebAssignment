@@ -11,7 +11,7 @@
 	<test name="Web">
 
 		<classes>
-			<class name="Tests.AddCart" />
+			<class name="Tests.AddCartTest" />
 		</classes>
 	</test>
 
