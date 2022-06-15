@@ -1,5 +1,5 @@
 ## Pre-Requisite
-Foolowing libraries should be added in pom.xml
+Following libraries should be added in pom.xml
 
 1. Java 8 & above
 2. TestNG - 6.14.3
